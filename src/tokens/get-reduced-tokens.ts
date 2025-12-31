@@ -33,16 +33,28 @@ export default function getReducedTokens(
       reduced[f][p] = {};
 
       for (const m in property) {
-        const pt: PrimitiveToken = property[m];
-        if (!pt) console.log("Modifier error.  m = ", f, p, m);
+        const pt: PrimitiveToken | undefined = property[m];
+        if (!pt) {
+          console.log("Modifier error.  m = ", f, p, m);
+          continue;
+        }
 
         // Extract the raw value from the primitive token
         const rawF = primitiveTokens[pt[0]];
-        if (!rawF) console.log("Primitive Token foundation Error ", pt);
+        if (!rawF) {
+          console.log("Primitive Token foundation Error ", pt);
+          continue;
+        }
         const rawC = rawF[pt[1]];
-        if (!rawC) console.log("Primitive Token category Error ", pt);
+        if (!rawC) {
+          console.log("Primitive Token category Error ", pt);
+          continue;
+        }
         const rawV = rawC[pt[2]];
-        if (!rawV) console.log("Primitive Token value Error ", pt);
+        if (!rawV) {
+          console.log("Primitive Token value Error ", pt);
+          continue;
+        }
 
         // Create a new key:value pair for this modifier:value token
         reduced[f][p][m] = rawV;

@@ -1,10 +1,10 @@
 import { DesignTheme, ColorMode, PrimitiveTokens } from "../design-interfaces";
 
-import baselinePrimitives from "@/design/primitive/_base-primitives.json";
+import baselinePrimitives from "@/design-example/primitive/_base-primitives.json";
 
 export default function getPrimitiveTokens(
   mode: ColorMode,
-  theme: DesignTheme // Theme is curently a stub
+  _theme?: DesignTheme // Theme is currently a stub, not used yet
 ): PrimitiveTokens {
   let variants: PrimitiveTokens = {};
   switch (mode) {

@@ -1,5 +1,4 @@
-import React, { PropsWithChildren } from "react";
-import { useColorScheme, ColorSchemeName } from "react-native";
+import { PropsWithChildren } from "react";
 
 import {
   ColorMode,
@@ -12,9 +11,9 @@ import DesignContext from "./_design-context";
 import getReducedTokens from "../tokens/get-reduced-tokens";
 
 const DesignContextProvider = (props: PropsWithChildren) => {
-  const colorScheme: ColorSchemeName = useColorScheme();
-
-  const mode: ColorMode = colorScheme || "light";
+  // TODO: Implement color scheme detection for web
+  // For now, defaulting to light mode
+  const mode: ColorMode = "light";
   const theme: DesignTheme = "default";
 
   // At the component level a hook compares mode and theme with the prior values. If they
