@@ -1,0 +1,27 @@
+{
+  "name": "design-token-dealer",
+  "version": "0.0.0",
+  "description": "open source design token distribution package for react projects ",
+  "keywords": [
+    "design",
+    "token"
+  ],
+  "homepage": "https://github.com/tdsfugal/design-token-dealer#readme",
+  "bugs": {
+    "url": "https://github.com/tdsfugal/design-token-dealer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdsfugal/design-token-dealer.git"
+  },
+  "license": "MIT",
+  "author": "Tim Smith",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
