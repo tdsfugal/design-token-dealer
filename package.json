@@ -40,6 +40,9 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
   },
+  "peerDependencies": {
+    "react": "^19.2.3"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.11",
     "@types/node": "^20.10.6",
