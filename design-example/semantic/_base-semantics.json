@@ -1,0 +1,77 @@
+{
+  "colors": {
+    "backgrounds": {
+      "primary": ["colors", "neutral", "50"],
+      "secondary": ["colors", "neutral", "100"],
+      "tertiary": ["colors", "neutral", "200"],
+      "accent": ["colors", "primary", "500"],
+      "success": ["colors", "success", "500"],
+      "warning": ["colors", "warning", "500"],
+      "error": ["colors", "error", "500"]
+    },
+    "text": {
+      "primary": ["colors", "neutral", "900"],
+      "secondary": ["colors", "neutral", "700"],
+      "tertiary": ["colors", "neutral", "500"],
+      "inverse": ["colors", "neutral", "50"],
+      "accent": ["colors", "primary", "600"],
+      "success": ["colors", "success", "500"],
+      "warning": ["colors", "warning", "500"],
+      "error": ["colors", "error", "500"]
+    },
+    "borders": {
+      "default": ["colors", "neutral", "300"],
+      "hover": ["colors", "neutral", "400"],
+      "focus": ["colors", "primary", "500"]
+    }
+  },
+  "typography": {
+    "heading": {
+      "size": ["fonts", "size", "xlarge"],
+      "weight": ["fonts", "weight", "bold"],
+      "family": ["fonts", "family", "sans"]
+    },
+    "body": {
+      "size": ["fonts", "size", "medium"],
+      "weight": ["fonts", "weight", "normal"],
+      "family": ["fonts", "family", "sans"]
+    },
+    "caption": {
+      "size": ["fonts", "size", "small"],
+      "weight": ["fonts", "weight", "normal"],
+      "family": ["fonts", "family", "sans"]
+    },
+    "code": {
+      "size": ["fonts", "size", "small"],
+      "weight": ["fonts", "weight", "normal"],
+      "family": ["fonts", "family", "mono"]
+    }
+  },
+  "spacing": {
+    "component": {
+      "xs": ["spacing", "scale", "1"],
+      "sm": ["spacing", "scale", "2"],
+      "md": ["spacing", "scale", "4"],
+      "lg": ["spacing", "scale", "6"],
+      "xl": ["spacing", "scale", "8"]
+    },
+    "layout": {
+      "xs": ["spacing", "scale", "2"],
+      "sm": ["spacing", "scale", "4"],
+      "md": ["spacing", "scale", "6"],
+      "lg": ["spacing", "scale", "8"],
+      "xl": ["spacing", "scale", "10"]
+    }
+  },
+  "radius": {
+    "component": {
+      "none": ["radius", "scale", "0"],
+      "sm": ["radius", "scale", "1"],
+      "md": ["radius", "scale", "2"],
+      "lg": ["radius", "scale", "3"],
+      "xl": ["radius", "scale", "4"],
+      "full": ["radius", "scale", "full"]
+    }
+  }
+}
+

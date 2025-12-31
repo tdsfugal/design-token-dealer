@@ -1,0 +1,43 @@
+{
+  "fonts": {
+    "size": {
+      "small": "14px",
+      "medium": "16px",
+      "large": "20px",
+      "xlarge": "24px"
+    },
+    "weight": {
+      "normal": "400",
+      "medium": "500",
+      "bold": "700"
+    },
+    "family": {
+      "sans": "system-ui, -apple-system, sans-serif",
+      "mono": "monospace"
+    }
+  },
+  "spacing": {
+    "scale": {
+      "0": "0px",
+      "1": "4px",
+      "2": "8px",
+      "3": "12px",
+      "4": "16px",
+      "5": "20px",
+      "6": "24px",
+      "8": "32px",
+      "10": "40px"
+    }
+  },
+  "radius": {
+    "scale": {
+      "0": "0px",
+      "1": "2px",
+      "2": "4px",
+      "3": "8px",
+      "4": "12px",
+      "full": "9999px"
+    }
+  }
+}
+
