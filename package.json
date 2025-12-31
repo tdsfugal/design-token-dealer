@@ -1,6 +1,6 @@
 {
   "name": "design-token-dealer",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "open source design token distribution package for react projects ",
   "keywords": [
     "design",
